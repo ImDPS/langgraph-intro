@@ -6,7 +6,7 @@ created in simple_graph.py. It shows various ways to interact with the
 compiled graph application.
 """
 
-from .simple_graph import create_simple_graph, GraphState
+from simple_graph import create_simple_graph, GraphState
 
 
 def basic_usage_example():
