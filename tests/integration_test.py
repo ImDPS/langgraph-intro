@@ -50,13 +50,13 @@ def test_complete_setup():
     
     # Test Module 1 lesson structure
     lesson_dirs = [
-        'src/lessons/lesson-1-motivation',
-        'src/lessons/lesson-2-simple-graph',
-        'src/lessons/lesson-3-langgraph-studio',
-        'src/lessons/lesson-4-chain',
-        'src/lessons/lesson-5-router',
-        'src/lessons/lesson-6-agent',
-        'src/lessons/lesson-7-agent-memory'
+        'src/modules/introduction/lessons/lesson-1-motivation',
+        'src/modules/introduction/lessons/lesson_2_simple_graph',
+        'src/modules/introduction/lessons/lesson-3-langgraph-studio',
+        'src/modules/introduction/lessons/lesson-4-chain',
+        'src/modules/introduction/lessons/lesson-5-router',
+        'src/modules/introduction/lessons/lesson-6-agent',
+        'src/modules/introduction/lessons/lesson-7-agent-memory'
     ]
     
     for lesson_dir in lesson_dirs:

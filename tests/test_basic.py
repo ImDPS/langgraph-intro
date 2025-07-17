@@ -77,9 +77,9 @@ def test_project_structure():
     required_files = [
         'src/__init__.py',
         'src/lessons/__init__.py',
-        'src/graphs/__init__.py',
-        'src/nodes/__init__.py',
-        'src/utils/__init__.py',
+        'src/modules/introduction/graphs/__init__.py',
+        'src/modules/introduction/nodes/__init__.py',
+        'src/modules/introduction/utils/__init__.py',
         'tests/__init__.py',
         'README.md',
         'pyproject.toml',
