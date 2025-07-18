@@ -1,0 +1,45 @@
+{
+  "graphs": {
+    "simple_graph": {
+      "name": "simple_graph",
+      "description": "Simple message processing graph from lesson 2",
+      "state_schema": "GraphState",
+      "entry_point": "process_message",
+      "finish_points": [
+        "process_message"
+      ],
+      "nodes": [
+        "process_message"
+      ],
+      "conditional_edges": []
+    },
+    "notebook_graph": {
+      "name": "notebook_graph",
+      "description": "Mood-based routing graph from notebook",
+      "state_schema": "GraphState",
+      "entry_point": "node_1",
+      "finish_points": [
+        "node_2",
+        "node_3"
+      ],
+      "nodes": [
+        "node_1",
+        "node_2",
+        "node_3"
+      ],
+      "conditional_edges": [
+        "decide_mood"
+      ]
+    }
+  },
+  "state_schemas": {
+    "GraphState": {
+      "fields": [
+        "message",
+        "response"
+      ]
+    }
+  },
+  "nodes": {},
+  "edges": {}
+}
