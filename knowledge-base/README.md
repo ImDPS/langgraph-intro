@@ -116,10 +116,10 @@ Quick reference materials
 ## 📈 Progress Tracking
 
 ### Content Status
-- [x] Fundamentals (1/10 documents) - What is LangGraph
+- [x] Fundamentals (2/10 documents) - What is LangGraph, Conditional Edges
 - [ ] Tutorials (0/15 documents)
-- [ ] Use Cases (0/12 documents)
-- [x] Components (1/8 documents) - State components
+- [x] Use Cases (1/12 documents) - Routing Workflows
+- [x] Components (2/8 documents) - State components, Conditional Edges
 - [x] State Management (4/4 documents) - Complete state management documentation
 - [ ] FAQs (0/20 documents)
 - [ ] Modules (0/6 modules)
