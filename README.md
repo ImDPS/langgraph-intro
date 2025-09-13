@@ -53,6 +53,15 @@ This course covers the fundamentals of LangGraph through 8 progressive tasks:
    uv run python -c "import langgraph; print('✅ LangGraph installed successfully!')"
    ```
 
+6. **Start LangGraph Studio (Optional):**
+   ```bash
+   # Start the local development server
+   uv run langgraph dev --port 8000 --no-browser --config langgraph.json
+   
+   # Open LangGraph Studio in your browser
+   # https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:8000
+   ```
+
 ## 📚 Learning Path
 
 ### Task-Based Approach
@@ -174,6 +183,24 @@ uv run mypy src/
 # Run all quality checks
 uv run black src/ tests/ && uv run isort src/ tests/ && uv run mypy src/
 ```
+
+### LangGraph Studio
+
+Visual development and debugging for your graphs:
+
+```bash
+# Start the development server
+uv run langgraph dev --port 8000 --no-browser --config langgraph.json
+
+# Access Studio interface
+# https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:8000
+```
+
+**Available Graphs:**
+- `simple_graph` - Basic LangGraph example
+- `basic_chain_graph` - Simple LLM integration
+- `tool_calling_graph` - Function calling capabilities
+- `multi_chain_workflow` - Complex analysis pipeline
 
 ### Environment Variables
 
