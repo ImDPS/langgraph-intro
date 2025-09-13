@@ -30,6 +30,24 @@
       "conditional_edges": [
         "decide_mood"
       ]
+    },
+    "enhanced_simple_graph": {
+      "name": "enhanced_simple_graph",
+      "description": "Simple graph enhanced in Studio with monitoring and error handling",
+      "state_schema": "EnhancedGraphState",
+      "entry_point": "start",
+      "finish_points": [
+        "end"
+      ],
+      "nodes": [
+        "start",
+        "process",
+        "monitor",
+        "end"
+      ],
+      "conditional_edges": [],
+      "exported": true,
+      "export_timestamp": "2025-09-13T12:44:38.239140"
     }
   },
   "state_schemas": {

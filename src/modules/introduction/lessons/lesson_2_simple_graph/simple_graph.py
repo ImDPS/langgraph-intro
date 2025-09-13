@@ -10,7 +10,7 @@ This module demonstrates the fundamental concepts of LangGraph:
 This serves as the foundation for more complex LangGraph applications.
 """
 
-from typing import TypedDict
+from typing_extensions import TypedDict
 from langgraph.graph import StateGraph
 
 

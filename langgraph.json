@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "simple_graph": "./src/modules/introduction/lessons/lesson_2_simple_graph/simple_graph.py:create_simple_graph"
+  },
+  "env": ".env"
+}
