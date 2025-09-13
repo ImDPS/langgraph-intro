@@ -1,7 +1,10 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "simple_graph": "./src/modules/introduction/lessons/lesson_2_simple_graph/simple_graph.py:create_simple_graph"
+    "simple_graph": "./src/modules/introduction/lessons/lesson_2_simple_graph/simple_graph.py:create_simple_graph",
+    "basic_chain_graph": "./src/modules/introduction/lessons/lesson-4-chain/chain_integration.py:create_basic_chain_graph",
+    "tool_calling_graph": "./src/modules/introduction/lessons/lesson-4-chain/chain_integration.py:create_tool_calling_graph",
+    "multi_chain_workflow": "./src/modules/introduction/lessons/lesson-4-chain/chain_integration.py:create_multi_chain_workflow"
   },
   "env": ".env"
 }
